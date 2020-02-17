@@ -20,7 +20,7 @@ public class Allinone
 
 
 
-class Encap// Encapsulation
+class Encap
 {
     public void Add(int a,int b)
     {
@@ -44,7 +44,7 @@ class Over extends Encap
         System.out.println("the in mull override "+c);
     }
 }
-interface Abs// Abstraction
+interface Abs// Interface
 {
     void run();
     void walk();
